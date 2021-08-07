@@ -2,7 +2,7 @@ This repo is an API service that gives an audio url for a youtube video\
 \
 default port: 5000\
 Endpoints: /mp3\
-argument: url=https://www.youtube.com/watch?v=xxxxxxxxxxx\
+argument: url=https://www.youtube.com/watch?v=xxxxxxxxxxx
 \
 example: 127.0.0.0:5000/mp3?https://www.youtube.com/watch?v=dQw4w9WgXcQ\
 \
