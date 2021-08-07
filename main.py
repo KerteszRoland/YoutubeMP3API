@@ -1,7 +1,14 @@
 from flask import Flask, abort, request, jsonify
+from flask_cors import CORS
 import youtube_dl
 
 app = Flask(__name__)
+
+resources={
+    r"/mp3": {"origins":"http://localhost:3000"}, 
+}
+
+CORS(app, resources=resources)
 
 
 def GetMP3URL(url):
