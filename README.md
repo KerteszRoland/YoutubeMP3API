@@ -4,7 +4,7 @@ default port: 5000\
 Endpoints: /mp3\
 argument: url=https://www.youtube.com/watch?v=xxxxxxxxxxx
 \
-example: 127.0.0.0:5000/mp3?https://www.youtube.com/watch?v=dQw4w9WgXcQ\
+example: 127.0.0.0:5000/mp3?url=https://www.youtube.com/watch?v=dQw4w9WgXcQ\
 \
 response JSON:\
 {\
